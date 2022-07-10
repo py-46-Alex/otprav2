@@ -256,8 +256,9 @@ new_contacts_list = list(contactss)
 #             connta.append(fisna)
 #             surename = t2[2]
 #         else:
-#
-#
+# И ВОТ НА ЭТОМ ЭТАПЕ
+#я  не понимаю как мне удалить итоговые дублиаты. файл в нужном виде я получил. дубликаты удалить немогу. пробывал удалиить через сет. 
+# но сет не работает со списками. 
 if "phonebooktested.csv" in to_delete:
     os.remove("phonebooktested.csv")
 
